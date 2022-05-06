@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    margin: 15px;
+
+}
+header a:hover{
+    text-decoration: underline;
+}
+main img{
+    max-width: 50%;
+}
+main{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search, .btn, .p, .lang{
+    line-height: 4;
+    width: 100%;
+}
+main p{
+    font-size: 0.89em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lang a , .lang p{
+    margin: 5px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=search]{
+    margin-top: 20px;
+    max-width: 582px;
+    font-size: 1.2em;
+    padding: 20px;
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    outline: none;
+}
+.btn{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    font-size: 1em;
+    padding: 8px 10px;
+    margin: 10px;
+    border: none;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #F2F2F2;
+}
+.foo2 ,.foo1{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.f1 a,.foo1 p{
+    font-size: 0.80em;
+    color: grey;
+    padding: 10px;
+    text-decoration: none;
+}
+.f1 a:hover{
+    text-decoration: underline;
+}
